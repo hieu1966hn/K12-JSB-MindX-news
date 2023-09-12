@@ -1,234 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MindX News</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MindX News</title>
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles/main.css" />
-  <link rel="stylesheet" href="./styles/navbar.css" />
-  <link rel="stylesheet" href="./styles/body.css" />
-  <link rel="stylesheet" href="./styles/footer.css" />
-</head>
+    <!-- Google font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
-  <nav>
-    <div class="navbar-container">
-      <div class="navbar">
-        <a href="./index.html">
-          <img src="./images/logo.png" alt="" />
-        </a>
-        <div class="nav-links">
-          <a href="#">
-            <i class="bx bx-time"></i>
-            <span>Mới nhất</span>
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/hero.css" />
+    <link rel="stylesheet" href="./styles/sections.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="navbar-side">
+          <a href="./index.html">
+            <img src="./assets/logo.png" alt="" />
           </a>
-          <a href="#">
-            <i class="bx bx-map"></i>
-            <span>Tin theo khu vực</span>
-          </a>
-          <a href="#">
-            <i class="bx bx-globe"></i>
-            <span>International</span>
-          </a>
-        </div>
-      </div>
-      <div class="navigation">
-        <div class="navigation-links">
-          <a style="color: #bf281b" href="#">Công nghệ</a>
+          <a href="#">Công nghệ</a>
           <a href="#">Tiện ích</a>
-          <a href="#">Ứng dụng</a>
-          <a href="#">Lập trình</a>
-          <a href="#">Blockchain</a>
+          <a href="#">Phần mềm</a>
+          <a href="#">Trò chơi</a>
+          <a href="#">Podcast</a>
         </div>
-        <div><i style="font-size: 20px" class="bx bx-search"></i></div>
-      </div>
-    </div>
-  </nav>
+        <div class="navbar-side">
+          <a
+            style="
+              color: var(--primary);
+              text-transform: none;
+              font-size: medium;
+            "
+            href="#"
+            >Subscribe</a
+          >
+          <a style="text-transform: none; font-size: medium" href="#"
+            >Sign in</a
+          >
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </nav>
 
-  <main>
-    <div class="container-1">
-      <a href="./xiaomi-ra-smartphone.html" class="card">
-        <img src="./images/cover-4.jpeg" alt="" />
-        <div class="card-caption">
-          <h2>Xiaomi ra smartphone gập đầu tiên có camera tiềm vọng</h2>
-        </div>
-      </a>
-      <div class="container-2">
-        <a href="#" class="card">
-          <img src="./images/cover-2.jpeg" alt="" />
-          <div class="card-caption">
-            <h2>Tài năng Việt ở Thung lũng Silicon bàn về tương lai AI</h2>
+      <div class="hero-section">
+        <a href="./post.html" class="hero">
+          <img
+            src="https://i1-sohoa.vnecdn.net/2023/09/11/iPhone-12-4672-1694405417.jpg?w=0&h=0&q=100&dpr=2&fit=crop&s=81GehGzvrk_EQYaguD6tJg"
+            alt=""
+          />
+          <div class="hero-content">
+            <p
+              style="
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                font-size: small;
+                margin-bottom: 8px;
+              "
+            >
+              Software
+            </p>
+            <h1 style="font-weight: 500; color: white">
+              Apple vá lỗ hổng nghe lén trên iPhone
+            </h1>
+            <div class="hero-chips">
+              <span class="chip">
+                <i class="fa-solid fa-user"></i>
+                <span>VNExpress</span>
+              </span>
+              <span class="chip">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>September 11, 2023</span>
+              </span>
+              <span class="chip">
+                <i class="fa-solid fa-comment"></i>
+                <span>No comments</span>
+              </span>
+            </div>
+            <p style="margin-top: 8px">
+              Bản vá iOS 16.6.1 được Apple tung ra nhằm sửa lỗ hổng trên iOS cho
+              phép phần mềm do thám Pegasus ẩn trong các tệp ảnh gửi qua
+              iMessage.
+            </p>
           </div>
         </a>
-        <div class="container-3">
-          <a href="#" class="card">
-            <img src="./images/cover-3.jpeg" alt="" />
-            <div class="card-caption">
-              <h3>Laptop kiêm tablet giá 29 triệu đồng</h3>
+        <div class="sidebar">
+          <img
+            src="https://websitedemos.net/tech-news-04/wp-content/uploads/sites/903/2021/07/tech-news-post-featured-img-09.jpg"
+            alt=""
+          />
+          <div class="sidebar-post">
+            <p>Phần mềm</p>
+            <a href="#">Ông chủ ChatGPT chỉ ra vấn đề của Thung lũng Silicon</a>
+          </div>
+          <div class="sidebar-post">
+            <p>Công nghệ</p>
+            <a href="#">Chân dung iPhone 15 trước ngày ra mắt</a>
+          </div>
+          <div class="sidebar-post">
+            <p>Trò chơi</p>
+            <a href="#">Game bắt Pokemon khi ngủ gây chú ý</a>
+          </div>
+          <div class="sidebar-post">
+            <p>Tiện ích</p>
+            <a href="#">GoPro ra camera hành trình giá 12,5 triệu đồng</a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style="display: flex; align-items: start; gap: 30px; margin-top: 80px"
+      >
+        <div class="editors-pick-section">
+          <div class="section-header">
+            <h2>Lựa Chọn Của Biên Tập Viên</h2>
+            <a href="#">Xem thêm <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="section-grid">
+            <div class="section-card">
+              <img
+                src="https://i1-sohoa.vnecdn.net/2023/09/08/sam-altman-responds-to-elon-mu-1522-9294-1694190759.jpg?w=240&h=144&q=100&dpr=1&fit=crop&s=o_T54ddAZXAMYiC1hMVtsQ"
+                alt=""
+              />
+              <a href="#">Elon Musk vào top 100 người có ảnh hưởng về AI</a>
             </div>
-          </a>
-          <a href="#" class="card">
-            <img src="./images/cover-1.jpeg" alt="" />
-            <div class="card-caption">
-              <h3>Sự chuyển mình của Huawei</h3>
+            <div class="section-card">
+              <img
+                src="https://i1-sohoa.vnecdn.net/2023/09/07/Image-822926275-ExtractWord-0-8363-5754-1694079665.png?w=240&h=144&q=100&dpr=1&fit=crop&s=-L74eCq7vRg40Ep9PvZDDg"
+                alt=""
+              />
+              <a href="#">Laptop hỗ trợ nhiều tiện tích cho sinh viên</a>
             </div>
-          </a>
+            <div class="section-card">
+              <img
+                src="https://i1-sohoa.vnecdn.net/2023/09/08/IMG3333-1694141342-3344-1694141351.jpg?w=240&h=144&q=100&dpr=1&fit=crop&s=sLGGxT30eOBF7u_QtnKcIQ"
+                alt=""
+              />
+              <a href="#"
+                >Facebook lỗi chỉ đăng nhập được một tài khoản trên mỗi thiết
+                bị</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="newsletter">
+          <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+          <h4>Subscribe to Our Newsletter</h4>
+          <p>Stay updated to our latest news.</p>
+          <input type="text" placeholder="Email address" />
+          <button type="button">Subscribe</button>
         </div>
       </div>
-    </div>
 
-    <div class="main-layout">
-      <div class="post-rows">
-        <div class="section-title"><span>Bài viết mới nhất</span></div>
-        <div class="post">
-          <a href="#">
-            <img src="./images/post-1.jpeg" alt="" />
-          </a>
-          <div>
-            <a href="#">
-              <h4>Galaxy S23 Ultra giảm chục triệu đồng sau nửa năm</h4>
-            </a>
-            <p>
-              Sau sáu tháng lên kệ, Galaxy S23 Ultra hiện có giá từ 22,9 triệu
-              đồng, giảm 9-12,5 triệu so với giá niêm yết tùy phiên bản. 125
-            </p>
-          </div>
-        </div>
-        <div class="post">
-          <a href="#">
-            <img src="./images/post-2.jpeg" alt="" />
-          </a>
-          <div>
-            <a href="#">
-              <h4>iPhone 15 bắt đầu được sản xuất ngoài Trung Quốc</h4>
-            </a>
-            <p>
-              Foxconn đang sản xuất iPhone 15 tại Ấn Độ, đánh dấu lần đầu một
-              mẫu iPhone thế hệ mới mới được lắp ráp ngoài Trung Quốc trước
-              khi ra mắt.
-            </p>
-          </div>
-        </div>
-        <div class="post">
-          <a href="#">
-            <img src="./images/post-3.jpeg" alt="" />
-          </a>
-          <div>
-            <a href="#">
-              <h4>Tai thỏ MacBook sẽ có FaceID</h4>
-            </a>
-            <p>
-              Công nghệ bảo mật FaceID sẽ được Apple đưa lên các mẫu MacBook
-              và iMac thay vì chỉ dành cho iPhone như hiện nay.
-            </p>
-          </div>
-        </div>
-        <div class="post">
-          <a href="#">
-            <img src="./images/post-4.jpeg" alt="" />
-          </a>
-          <div>
-            <a href="#">
-              <h4>Xiaomi muốn đuổi kịp và đánh bại iPhone</h4>
-            </a>
-            <p>
-              Lei Jun, CEO Xiaomi, cho biết công ty dùng iPhone của Apple làm
-              chuẩn mực để đặt mục tiêu bắt kịp và hạ gục thời gian tới.
-            </p>
-          </div>
-        </div>
-        <div class="post">
-          <a href="#">
-            <img src="./images/post-5.jpeg" alt="" />
-          </a>
-          <div>
-            <a href="#">
-              <h4>Khi AI 'bỏ tù' oan dân thường</h4>
-            </a>
-            <p>
-              Porcha Woodruff, mang thai 8 tháng, bị cảnh sát Mỹ bắt với cáo
-              buộc cướp xe và tài sản vì AI nhận dạng kẻ cướp khớp dữ liệu
-              khuôn mặt với cô.
-            </p>
-          </div>
-        </div>
-        <div class="post">
-          <a href="#">
-            <img src="./images/post-6.jpeg" alt="" />
-          </a>
-          <div>
-            <a href="#">
-              <h4>Cách bảo vệ pin iPhone</h4>
-            </a>
-            <p>
-              Người dùng iPhone không thể tránh được việc pin bị chai theo
-              thời gian, nhưng có thể kéo dài tuổi thọ pin nếu dùng và sạc
-              đúng cách.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="sidebar">
-        <div class="section-title"><span>Phổ biến nhất</span></div>
-        <div class="side-post">
-          <a href="#">
-            <img src="./images/side-post-1.jpeg" alt="" />
-          </a>
-          <div>
-            <a href="#">
-              <h4>iPhone 15 có thể bán tại Việt Nam cuối tháng 9</h4>
-            </a>
-            <p>Thứ sáu, 18/8/2023</p>
-          </div>
-        </div>
-        <div class="side-post">
-          <a href="#">
-            <img src="./images/side-post-2.jpeg" alt="" />
-          </a>
-          <div>
-            <a href="#">
-              <h4>Công ty của Elon Musk bán hết Bitcoin</h4>
-            </a>
-            <p>Thứ sáu, 18/8/2023</p>
-          </div>
-        </div>
-        <div class="side-post">
-          <a href="#">
-            <img src="./images/side-post-3.jpeg" alt="" />
-          </a>
-          <div>
-            <a href="#">
-              <h4>Google chuẩn bị cho 'ngày tận thế lượng tử'</h4>
-            </a>
-            <p>Thứ sáu, 18/8/2023</p>
-          </div>
-        </div>
-        <div class="side-post">
-          <a href="#">
-            <img src="./images/side-post-4.jpeg" alt="" />
-          </a>
-          <div>
-            <a href="#">
-              <h4>Ứng dụng đào tiền ảo giống Pi rộ trở lại</h4>
-            </a>
-            <p>Thứ sáu, 18/8/2023</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <div class="footer-container">
-      <p>
-        © 2023. Sản phẩm mẫu dùng cho mục đích giảng dạy. <br />Không phải
-        trang tin tức được quản lý bởi MindX
-      </p>
-      <a style="color: #bf281b" href="https://github.com/hieu1966hn/K12-JSB-MindX-news" target="_blank">Github</a>
-    </div>
-  </footer>
-</body>
-
+      <script src="./script.js"></script>
+    </main>
+  </body>
 </html>
